@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="src.test.java">
+    <listeners>
+        <listener class-name="testListener"></listener>
+    </listeners>
+    <test name="mainAssignment">
+        <classes>
+            <class name="actualTest"></class>
+        </classes>
+    </test>
+</suite>
